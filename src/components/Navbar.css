@@ -1,0 +1,24 @@
+.navbar ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  background-color: #ffffff;
+  padding: 12px 24px;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+}
+
+.navbar a, .navbar button {
+  text-decoration: none;
+  font-size: 16px;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+  color: #0056b3;
+}
