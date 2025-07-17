@@ -239,7 +239,7 @@ body {
   font-weight: 800;
   color: white;
   padding: 40px;
-  background-image: url('D:\Golang\Go_Practise\Project\event-handler-frontend\public\Image.png'); /* ✅ Put your image in public/images/ */
+  background-image: url('./assets/Image.png'); /* ✅ Put your image in public/images/ */
   background-size: cover;
   background-position: center;
   border-radius: 10px;
