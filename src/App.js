@@ -9,7 +9,7 @@ import CreateEvent from './components/CreateEvent';
 import Home from './Home';
 
 // ✅ Add Axios setup here
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://eventhub-backend-production.up.railway.app';
 axios.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
   if (token) config.headers.Authorization = `Bearer ${token}`;
